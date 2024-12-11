@@ -74,8 +74,3 @@ driver.quit()
 with open ('data.txt','w+') as fo:
     json.dump(Items,fo,indent=4,separators=(' ,',' = '))
     print("json done!")
-
-with open ('details.json','w+') as fe:
-    
-    json.dump(Items,fo,indent=4,separators=(' ,',' = '))
-    print("json file done!")
